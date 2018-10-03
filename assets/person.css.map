@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,8CAA8C;AAI9C,iDAAiD;AAEjD,kDAAkD",
+"sources": ["../scss/person.scss"],
+"names": [],
+"file": "person.css"
+}

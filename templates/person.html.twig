@@ -1,0 +1,13 @@
+{% extends 'article.html.twig' %}
+{% block body_template_classes %}{{ parent() }} person{% endblock body_template_classes %}
+
+{% block schema %}
+{{ parent() }}
+{% include '_json-ld/person.html.twig'  %}
+{% endblock schema %}
+
+{% block content %}
+
+  {{ parent() }}
+
+{% endblock content %}

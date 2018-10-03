@@ -1,0 +1,17 @@
+PHOTON:
+  person:
+    _label: Person Details
+    givenName: First Name
+    familyName: Last Name
+    email: Email
+    telephone: Telephone
+    url: URL
+
+    address:
+      _label: Address
+      streetAddress: Street Address
+      postOfficeBoxNumber: PO Box
+      addressLocality: City
+      addressRegion: State
+      postalCode: Zip
+      addressCountry: Country
