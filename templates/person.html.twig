@@ -1,12 +1,10 @@
 {% extends 'article.html.twig' %}
+
 {% set type = "person" %}
+
 {% block template %}
 {{ parent() }}
-<!-- user/plugins/photon-{{ type }}/templates/{{ type }}.html.twig -->
+<!-- user/plugins/photon-person/templates/person.html.twig -->
 {% endblock %}
-{% block body_template_classes %}{{ parent() }} {{ type }}{% endblock body_template_classes %}
 
-{% block schema %}
-{{ parent() }}
-{% include '_json-ld/' ~ type ~ '.html.twig' ignore missing  %}
-{% endblock schema %}
+{% block body_template_classes %}{{ parent() }} person{% endblock body_template_classes %}
