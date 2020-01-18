@@ -1,22 +1,22 @@
 {% set person = page.header.data.person %}
   <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "{{ person.givenName ~ ' ' ~ person.familyName  }}",
-      "givenName": "{{ person.givenName }}",
-      "familyName": "{{ person.familyName }}",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "{{ person.address.streetAddress }}",
-        "postOfficeBoxNumber": "{{ person.address.postOfficeBoxNumber }}",
-        "addressLocality": "{{ person.address.addressLocality }}",
-        "addressRegion": "{{ person.address.addressRegion }}",
-        "postalCode": "{{ person.address.postalCode }}"
-      },
-      "email": "{{ person.email }}",
-      "telephone": "{{ person.telephone }}",
-      "image": "{{ featured_image }}",
-      "url": "{{ page.url }}"
-    }
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "{{ person.givenName ~ ' ' ~ person.familyName  }}",
+    "givenName": "{{ person.givenName }}",
+    "familyName": "{{ person.familyName }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ person.address.streetAddress }}",
+      "postOfficeBoxNumber": "{{ person.address.postOfficeBoxNumber }}",
+      "addressLocality": "{{ person.address.addressLocality }}",
+      "addressRegion": "{{ person.address.addressRegion }}",
+      "postalCode": "{{ person.address.postalCode }}"
+    },
+    "email": "{{ person.email }}",
+    "telephone": "{{ person.telephone }}",
+    "image": "{{ featured_image }}",
+    "url": "{{ page.url }}"
+  }
   </script>
