@@ -1,3 +1,8 @@
+% name: Person
+% def: author='/about'
+% def: collection_name='Details'
+% def: person_state='OR'
+% def: person_country='US'
 ---
 title: ${title}
 subtitle: ${subtitle}
