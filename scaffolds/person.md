@@ -6,9 +6,9 @@
 ---
 title: ${title}
 subtitle: ${subtitle}
-author: ${author:-/about}
+author: ${author}
 collection:
-    name: ${collection_name:-Articles}
+    name: ${collection_name}
     showCount: true
     showMenu: true
 content:
@@ -31,7 +31,7 @@ data:
             address:
                 streetAddress: ${person_street}
                 addressLocality: ${person_city}
-                addressRegion: ${person_state:-OR}
+                addressRegion: ${person_state}
                 postalCode: ${person_zip}
                 addressCountry: ${person_country}
 ---
