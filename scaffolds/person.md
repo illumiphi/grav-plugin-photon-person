@@ -1,4 +1,5 @@
 % name: Person
+% def: post_date=$(date +%Y-%m-%d)
 % def: author='/about'
 % def: collection_name='Details'
 % def: person_state='OR'
@@ -6,14 +7,15 @@
 ---
 title: ${title}
 subtitle: ${subtitle}
+date: ${post_date}
 author: ${author}
-collection:
-    name: ${collection_name}
-    showCount: true
-    showMenu: true
+sets:
+    default:
+        name: ${collection_name}
+        showCount: true
+        showMenu: true
 content:
     items: '@self.children'
-child_type: article
 taxonomy:
     category: 
         - ${category}
