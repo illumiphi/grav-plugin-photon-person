@@ -1,10 +1,10 @@
 {% extends 'article.html.twig' %}
-
 {% set type = "person" %}
-
 {% block template %}
 {{ parent() }}
-<!-- user/plugins/photon-person/templates/person.html.twig -->
+{% if config.system.debugger.enabled %}
+<!-- user/plugins/photon-{{ type }}/templates/{{ type }}.html.twig -->
+{% endif %}
 {% endblock %}
 
-{% block body_template_classes %}{{ parent() }} person{% endblock body_template_classes %}
+{% block body_template_classes %}{{ parent() }} {{ type }}{% endblock body_template_classes %}
