@@ -79,24 +79,16 @@ class PhotonPersonPlugin extends Plugin
       $twig = 			$this->grav['twig'];
       $assets = 		$this->grav['assets'];
 
+      // styles
+      $css = 'plugin://photon-person/assets/person.css';
+      $assets->addCss($css, 100, false, 'photon-plugins' );
+      
       // only load the vars if this datatype page
       if ($page->template() == 'person')
       {
-
-        // styles
-        if ($this->config->get('plugins.photon-person.built_in_css')) {
-          $css = 'plugin://photon-person/assets/person.css';
-          $assets->addCss($css, 100, false, 'photon-plugins' );
-        }
-
         // scripts
-        if ($this->config->get('plugins.photon-person.built_in_js')) {
-          $js = 'plugin://photon-person/assets/person.js';
-          $assets->addJs($js, 100, false, 'defer', 'photon-plugins' );
-        }
-
-
+        $js = 'plugin://photon-person/assets/person.js';
+        $assets->addJs($js, 100, false, 'defer', 'photon-plugins' );
       }
     }
-
 }
