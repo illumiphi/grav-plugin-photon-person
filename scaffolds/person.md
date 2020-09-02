@@ -9,12 +9,10 @@ title: ${title}
 subtitle: ${subtitle}
 date: ${post_date}
 author: ${author}
-sets:
-    default:
-        name: ${collection_name}
-        showCount: true
-        showMenu: true
 content:
+    title: ${collection_name}
+    showCount: true
+    showMenu: true
     items: '@self.children'
 taxonomy:
     category: 
@@ -27,6 +25,7 @@ data:
         '@type': Person
         givenName: ${person_first}
         familyName: ${person_last}
+        email: ${person_email}
         telephone: ${person_phone}
         url: ${person_url} 
         location:
