@@ -5,12 +5,12 @@
 
 # photon ✴ Person
 
-## v0.1.0
-> templates and styles for person content
+## 0.1.0
 
 ---
 
-![GitHub release](https://img.shields.io/github/v/tag/photon-platform/grav-theme-photon)
+
+> structure, style and logic for content about people
 
 - [configuration](#configuration)
 - [templates](#templates)

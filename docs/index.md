@@ -1,6 +1,3 @@
----
-title: photon PERSON
----
 <a href="https://photon-platform.net/">
     <img src="https://photon-platform.net/user/images/photon-logo-banner.png" alt="photon" title="photon" align="right" height="120" />
 </a>
@@ -8,12 +5,12 @@ title: photon PERSON
 
 # photon ✴ Person
 
-## v0.1.0
-> templates and styles for person content
+## 0.1.0
 
 ---
 
-![GitHub release](https://img.shields.io/github/v/tag/photon-platform/grav-theme-photon)
+
+> structure, style and logic for content about people
 
 - [configuration](#configuration)
 - [templates](#templates)

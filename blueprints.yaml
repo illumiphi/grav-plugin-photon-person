@@ -1,6 +1,6 @@
 name: photon ✴ Person
-version: v0.1.0
-description: templates and styles for person content
+version: 0.1.0
+description: structure, style and logic for content about people
 author:
   name: phi ARCHITECT
   email: phi@photon-platform.net
