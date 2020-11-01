@@ -5,7 +5,7 @@
 
 # photon ✴ Person
 
-## 0.1.0
+## v0.1.0
 > templates and styles for person content
 
 ---
