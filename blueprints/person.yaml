@@ -1,5 +1,5 @@
 title: Person
-@extends:
+'@extends':
     type: article
     context: blueprints://pages
 
@@ -63,39 +63,39 @@ form:
 
                   header.data.person.address.streetAddress:
                     type: text
-                    help: The street address. For example: 123 Main St.
+                    help: "The street address. For example: 123 Main St."
                     label: PHOTON.person.address.streetAddress
 
                   header.data.person.address.postOfficeBoxNumber:
                     type: text
-                    help: The PO box. For example: 4444.
+                    help: "The PO box. For example: 4444."
                     label: PHOTON.person.address.postOfficeBoxNumber
                     size: small
 
                   header.data.person.address.addressLocality:
                     type: text
-                    help: The city or locality. For example: Portland.
+                    help: "The city or locality. For example: Portland."
                     label: PHOTON.person.address.addressLocality
                     # default: Waldport
                     size: medium
 
                   header.data.person.address.addressRegion:
                     type: text
-                    help: The state or region. For example: OR.
+                    help: "The state or region. For example: OR."
                     label: PHOTON.person.address.addressRegion
                     default: OR
                     size: small
 
                   header.data.person.address.postalCode:
                     type: text
-                    help: The zip or postal code. For example: 97498.
+                    help: "The zip or postal code. For example: 97498."
                     label: PHOTON.person.address.postalCode
                     # default: 97394
                     size: small
 
                   header.data.person.address.addressCountry:
                     type: text
-                    help: The country or code. For example: US.
+                    help: "The country or code. For example: US."
                     label: PHOTON.person.address.addressCountry
                     default: US
                     size: small
