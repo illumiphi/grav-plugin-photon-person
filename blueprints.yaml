@@ -9,7 +9,7 @@ homepage: https://github.com/photon-platform/grav-plugin-photon-person
 demo: https://photon-platform.net
 keywords: datatype, photon
 bugs: https://github.com/photon-platform/grav-plugin-photon-person/issues
-docs: https://github.com/photon-platform/grav-plugin-photon-person/blob/develop/README.md
+docs: https://photon-platform.github.io/grav-plugin-photon-person/
 license: MIT
 
 dependencies:
