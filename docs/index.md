@@ -1,5 +1,5 @@
 ---
-title: photon ORGANIZATION
+title: photon PERSON
 ---
 <a href="https://photon-platform.net/">
     <img src="https://photon-platform.net/user/images/photon-logo-banner.png" alt="photon" title="photon" align="right" height="120" />
