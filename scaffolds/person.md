@@ -14,10 +14,8 @@ content:
     items: '@self.children'
 taxonomy:
     category: 
-        - ${category}
+        - people
     tag: 
-        - ${tag}
-show_gallery: false
 data:
     person:
         '@type': Person
